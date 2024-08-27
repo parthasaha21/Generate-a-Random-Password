@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"poppins", sans-serif ;
+}
+body{
+    background-color:#002339 ;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+.container{
+    width:90%;
+    max-width: 700px;
+    height: auto;
+   margin: 12%;
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+}
+.span-text{
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+.display img{
+    height: 30px;
+    cursor: pointer;
+}
+.display input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.container button img{
+    height: 25px;
+    margin-right: 10px;
+}
+.container button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #019f55;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+@media screen and (max-width:700px) {
+    .container{
+        width:90%;
+        max-width: 320px;
+        height: auto;
+       margin: 8%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .container button{
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: #019f55;
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        padding: 15px;
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 15px;
+}
+}
